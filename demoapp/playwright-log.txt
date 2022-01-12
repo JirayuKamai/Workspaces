@@ -1,0 +1,22 @@
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module 'google-protobuf'
+Require stack:
+- c:\users\tan-pc\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at node/playwright-wrapper/generated/playwright_pb.js (c:\users\tan-pc\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:35:16)
+    at __require (c:\users\tan-pc\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:9:44)
+    at Object.<anonymous> (c:\users\tan-pc\appdata\local\programs\python\python38\lib\site-packages\Browser\wrapper\index.js:5763:39)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\users\\tan-pc\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Browser\\wrapper\\index.js'
+  ]
+}
