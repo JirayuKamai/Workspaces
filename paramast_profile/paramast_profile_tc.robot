@@ -76,7 +76,6 @@ Verify Footer
 
 Verify Instagram Navigation
     Click Element                        //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i
-    Wait Until Location Contains         https://www.instagram.com/accounts/login/                           5s         Instagram
     Wait Until Element Is Visible        id:loginForm
     Page Should Contain Element          //*[@id="loginForm"]/div/div[5]/button/span[2]                      Log in with Facebook
     Close All Browsers

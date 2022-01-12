@@ -1,368 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.8.2 on win32)" generated="20220113 01:45:13.849" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.8.2 on win32)" generated="20220113 02:30:02.259" rpa="false" schemaversion="2">
 <suite id="s1" name="Paramast Profile Tc" source="C:\Users\Tan-PC\Workspaces\paramast_profile\paramast_profile_tc.robot">
 <kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
 <arg>https://deviltarxd.github.io/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220113 01:45:13.985" level="INFO">Opening browser 'chrome' to base url 'https://deviltarxd.github.io/'.</msg>
-<status status="PASS" starttime="20220113 01:45:13.985" endtime="20220113 01:45:16.216"/>
+<msg timestamp="20220113 02:30:02.395" level="INFO">Opening browser 'chrome' to base url 'https://deviltarxd.github.io/'.</msg>
+<status status="PASS" starttime="20220113 02:30:02.395" endtime="20220113 02:30:04.030"/>
 </kw>
 <test id="s1-t1" name="Open Paramast profile">
 <kw name="Title Should Be" library="SeleniumLibrary">
 <arg>my-portfolio</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<msg timestamp="20220113 01:45:16.219" level="INFO">Page title is 'my-portfolio'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.217" endtime="20220113 01:45:16.219"/>
+<msg timestamp="20220113 02:30:04.033" level="INFO">Page title is 'my-portfolio'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.030" endtime="20220113 02:30:04.033"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.216" endtime="20220113 01:45:16.219"/>
+<status status="PASS" starttime="20220113 02:30:04.030" endtime="20220113 02:30:04.033"/>
 </test>
 <test id="s1-t2" name="Verify Header">
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>class:snes-jp-logo</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.225" level="INFO">Current page contains element 'class:snes-jp-logo'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.220" endtime="20220113 01:45:16.225"/>
+<msg timestamp="20220113 02:30:04.041" level="INFO">Current page contains element 'class:snes-jp-logo'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.034" endtime="20220113 02:30:04.041"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Paramas</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.232" level="INFO">Current page contains text 'Paramas'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.226" endtime="20220113 01:45:16.232"/>
+<msg timestamp="20220113 02:30:04.048" level="INFO">Current page contains text 'Paramas'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.041" endtime="20220113 02:30:04.049"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.219" endtime="20220113 01:45:16.232"/>
+<status status="PASS" starttime="20220113 02:30:04.034" endtime="20220113 02:30:04.049"/>
 </test>
 <test id="s1-t3" name="Verify Introduce content">
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>class:nes-bcrikko</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.239" level="INFO">Current page contains element 'class:nes-bcrikko'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.233" endtime="20220113 01:45:16.239"/>
+<msg timestamp="20220113 02:30:04.056" level="INFO">Current page contains element 'class:nes-bcrikko'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.050" endtime="20220113 02:30:04.056"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>I'm Paramas. This is everything about me.</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.245" level="INFO">Current page contains text 'I'm Paramas. This is everything about me.'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.239" endtime="20220113 01:45:16.245"/>
+<msg timestamp="20220113 02:30:04.063" level="INFO">Current page contains text 'I'm Paramas. This is everything about me.'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.056" endtime="20220113 02:30:04.063"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.233" endtime="20220113 01:45:16.245"/>
+<status status="PASS" starttime="20220113 02:30:04.049" endtime="20220113 02:30:04.063"/>
 </test>
 <test id="s1-t4" name="Verify Things I do content">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Things I do</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.253" level="INFO">Current page contains text 'Things I do'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.246" endtime="20220113 01:45:16.253"/>
+<msg timestamp="20220113 02:30:04.070" level="INFO">Current page contains text 'Things I do'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.064" endtime="20220113 02:30:04.071"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Web Develop</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.259" level="INFO">Current page contains text 'Web Develop'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.253" endtime="20220113 01:45:16.260"/>
+<msg timestamp="20220113 02:30:04.078" level="INFO">Current page contains text 'Web Develop'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.071" endtime="20220113 02:30:04.078"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Dev OPS</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.266" level="INFO">Current page contains text 'Dev OPS'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.260" endtime="20220113 01:45:16.266"/>
+<msg timestamp="20220113 02:30:04.084" level="INFO">Current page contains text 'Dev OPS'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.078" endtime="20220113 02:30:04.084"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.246" endtime="20220113 01:45:16.266"/>
+<status status="PASS" starttime="20220113 02:30:04.063" endtime="20220113 02:30:04.085"/>
 </test>
 <test id="s1-t5" name="Verify Social Media content">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Social Media</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.274" level="INFO">Current page contains text 'Social Media'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.267" endtime="20220113 01:45:16.274"/>
+<msg timestamp="20220113 02:30:04.092" level="INFO">Current page contains text 'Social Media'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.085" endtime="20220113 02:30:04.092"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.279" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.274" endtime="20220113 01:45:16.279"/>
+<msg timestamp="20220113 02:30:04.098" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.093" endtime="20220113 02:30:04.098"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.285" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.279" endtime="20220113 01:45:16.285"/>
+<msg timestamp="20220113 02:30:04.104" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.098" endtime="20220113 02:30:04.104"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.290" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.285" endtime="20220113 01:45:16.290"/>
+<msg timestamp="20220113 02:30:04.109" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.104" endtime="20220113 02:30:04.109"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[4]/i</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.295" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[4]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.291" endtime="20220113 01:45:16.296"/>
+<msg timestamp="20220113 02:30:04.115" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[4]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.109" endtime="20220113 02:30:04.115"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.267" endtime="20220113 01:45:16.296"/>
+<status status="PASS" starttime="20220113 02:30:04.085" endtime="20220113 02:30:04.115"/>
 </test>
 <test id="s1-t6" name="Verify Frontend Knowledge content">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Frontend Knowledge</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.303" level="INFO">Current page contains text 'Frontend Knowledge'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.297" endtime="20220113 01:45:16.303"/>
+<msg timestamp="20220113 02:30:04.122" level="INFO">Current page contains text 'Frontend Knowledge'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.116" endtime="20220113 02:30:04.122"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>HTML[5]</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.309" level="INFO">Current page contains text 'HTML[5]'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.303" endtime="20220113 01:45:16.309"/>
+<msg timestamp="20220113 02:30:04.128" level="INFO">Current page contains text 'HTML[5]'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.122" endtime="20220113 02:30:04.128"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/progress</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.314" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/progress'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.309" endtime="20220113 01:45:16.314"/>
+<msg timestamp="20220113 02:30:04.134" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/progress'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.129" endtime="20220113 02:30:04.134"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Javascript</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.321" level="INFO">Current page contains text 'Javascript'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.315" endtime="20220113 01:45:16.321"/>
+<msg timestamp="20220113 02:30:04.141" level="INFO">Current page contains text 'Javascript'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.134" endtime="20220113 02:30:04.141"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/progress</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.326" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/progress'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.321" endtime="20220113 01:45:16.326"/>
+<msg timestamp="20220113 02:30:04.146" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/progress'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.141" endtime="20220113 02:30:04.146"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Jquery</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.332" level="INFO">Current page contains text 'Jquery'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.326" endtime="20220113 01:45:16.332"/>
+<msg timestamp="20220113 02:30:04.153" level="INFO">Current page contains text 'Jquery'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.147" endtime="20220113 02:30:04.153"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[3]/div[2]/progress</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.338" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[3]/div[2]/progress'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.333" endtime="20220113 01:45:16.338"/>
+<msg timestamp="20220113 02:30:04.159" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[3]/div[2]/progress'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.153" endtime="20220113 02:30:04.159"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>CSS[3]</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.344" level="INFO">Current page contains text 'CSS[3]'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.338" endtime="20220113 01:45:16.344"/>
+<msg timestamp="20220113 02:30:04.165" level="INFO">Current page contains text 'CSS[3]'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.159" endtime="20220113 02:30:04.166"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[4]/div[2]/progress</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:16.349" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[4]/div[2]/progress'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.344" endtime="20220113 01:45:16.350"/>
+<msg timestamp="20220113 02:30:04.171" level="INFO">Current page contains element '//*[@id="app"]/div/div[2]/div/div[2]/div[1]/div[4]/div[2]/progress'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.166" endtime="20220113 02:30:04.171"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.296" endtime="20220113 01:45:16.350"/>
+<status status="PASS" starttime="20220113 02:30:04.115" endtime="20220113 02:30:04.171"/>
 </test>
 <test id="s1-t7" name="Verify Backend Knowledge content">
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[2]/h3</arg>
 <arg>ฺBackend Knowledge</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.351" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[2]/h3' contains exact text 'ฺBackend Knowledge'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.351" endtime="20220113 01:45:16.362"/>
+<msg timestamp="20220113 02:30:04.172" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[2]/h3' contains exact text 'ฺBackend Knowledge'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.172" endtime="20220113 02:30:04.184"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>PHP</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.368" level="INFO">Current page contains text 'PHP'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.362" endtime="20220113 01:45:16.368"/>
+<msg timestamp="20220113 02:30:04.190" level="INFO">Current page contains text 'PHP'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.184" endtime="20220113 02:30:04.190"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Docker</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.375" level="INFO">Current page contains text 'Docker'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.369" endtime="20220113 01:45:16.375"/>
+<msg timestamp="20220113 02:30:04.197" level="INFO">Current page contains text 'Docker'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.190" endtime="20220113 02:30:04.197"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Node. js</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.382" level="INFO">Current page contains text 'Node. js'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.375" endtime="20220113 01:45:16.382"/>
+<msg timestamp="20220113 02:30:04.204" level="INFO">Current page contains text 'Node. js'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.198" endtime="20220113 02:30:04.204"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.350" endtime="20220113 01:45:16.382"/>
+<status status="PASS" starttime="20220113 02:30:04.172" endtime="20220113 02:30:04.204"/>
 </test>
 <test id="s1-t8" name="Verify Other Knowledge content">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Other Knowledge</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.389" level="INFO">Current page contains text 'Other Knowledge'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.383" endtime="20220113 01:45:16.389"/>
+<msg timestamp="20220113 02:30:04.211" level="INFO">Current page contains text 'Other Knowledge'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.205" endtime="20220113 02:30:04.211"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Laravel</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.395" level="INFO">Current page contains text 'Laravel'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.389" endtime="20220113 01:45:16.395"/>
+<msg timestamp="20220113 02:30:04.218" level="INFO">Current page contains text 'Laravel'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.211" endtime="20220113 02:30:04.218"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Vue</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.402" level="INFO">Current page contains text 'Vue'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.396" endtime="20220113 01:45:16.402"/>
+<msg timestamp="20220113 02:30:04.224" level="INFO">Current page contains text 'Vue'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.218" endtime="20220113 02:30:04.224"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Git</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.408" level="INFO">Current page contains text 'Git'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.402" endtime="20220113 01:45:16.408"/>
+<msg timestamp="20220113 02:30:04.231" level="INFO">Current page contains text 'Git'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.225" endtime="20220113 02:30:04.231"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>React</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220113 01:45:16.414" level="INFO">Current page contains text 'React'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.408" endtime="20220113 01:45:16.415"/>
+<msg timestamp="20220113 02:30:04.238" level="INFO">Current page contains text 'React'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.232" endtime="20220113 02:30:04.238"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.383" endtime="20220113 01:45:16.415"/>
+<status status="PASS" starttime="20220113 02:30:04.204" endtime="20220113 02:30:04.238"/>
 </test>
 <test id="s1-t9" name="Verify Experience content">
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/h3</arg>
 <arg>Experience</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.416" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/h3' contains exact text 'Experience'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.415" endtime="20220113 01:45:16.428"/>
+<msg timestamp="20220113 02:30:04.239" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/h3' contains exact text 'Experience'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.239" endtime="20220113 02:30:04.252"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.415" endtime="20220113 01:45:16.428"/>
+<status status="PASS" starttime="20220113 02:30:04.239" endtime="20220113 02:30:04.252"/>
 </test>
 <test id="s1-t10" name="Verify 1st Experience content">
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/h3</arg>
 <arg>PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.429" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/h3' contains exact text 'PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.429" endtime="20220113 01:45:16.440"/>
+<msg timestamp="20220113 02:30:04.253" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/h3' contains exact text 'PRINCE OF SONGKLA UNIVERSITY, PHUKET CAMPUS'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.253" endtime="20220113 02:30:04.264"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[1]</arg>
 <arg>Technology and Environment (Information Technology) Majors</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.440" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[1]' contains exact text 'Technology and Environment (Information Technology) Majors'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.440" endtime="20220113 01:45:16.452"/>
+<msg timestamp="20220113 02:30:04.265" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[1]' contains exact text 'Technology and Environment (Information Technology) Majors'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.265" endtime="20220113 02:30:04.276"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[2]</arg>
 <arg>GPA: 2.97/4.00</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.452" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[2]' contains exact text 'GPA: 2.97/4.00'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.452" endtime="20220113 01:45:16.463"/>
+<msg timestamp="20220113 02:30:04.276" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[2]' contains exact text 'GPA: 2.97/4.00'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.276" endtime="20220113 02:30:04.287"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[3]</arg>
 <arg>2012 - 2015</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.464" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[3]' contains exact text '2012 - 2015'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.464" endtime="20220113 01:45:16.475"/>
+<msg timestamp="20220113 02:30:04.288" level="INFO">Verifying element '//*[@id="app"]/div/div[2]/div/div[2]/div[4]/div[1]/div[2]/p[3]' contains exact text '2012 - 2015'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.288" endtime="20220113 02:30:04.299"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.428" endtime="20220113 01:45:16.475"/>
+<status status="PASS" starttime="20220113 02:30:04.252" endtime="20220113 02:30:04.299"/>
 </test>
 <test id="s1-t11" name="Verify Footer">
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[3]/div/div</arg>
 <arg>Using NES.css 2019</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220113 01:45:16.476" level="INFO">Verifying element '//*[@id="app"]/div/div[3]/div/div' contains exact text 'Using NES.css 2019'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.476" endtime="20220113 01:45:16.487"/>
+<msg timestamp="20220113 02:30:04.300" level="INFO">Verifying element '//*[@id="app"]/div/div[3]/div/div' contains exact text 'Using NES.css 2019'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.300" endtime="20220113 02:30:04.311"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.476" endtime="20220113 01:45:16.487"/>
+<status status="PASS" starttime="20220113 02:30:04.300" endtime="20220113 02:30:04.312"/>
 </test>
 <test id="s1-t12" name="Verify Instagram Navigation">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220113 01:45:16.488" level="INFO">Clicking element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:16.488" endtime="20220113 01:45:18.580"/>
-</kw>
-<kw name="Wait Until Location Contains" library="SeleniumLibrary">
-<arg>https://www.instagram.com/accounts/login/</arg>
-<arg>5s</arg>
-<arg>Instagram</arg>
-<doc>Waits until the current URL contains ``expected``.</doc>
-<status status="PASS" starttime="20220113 01:45:18.581" endtime="20220113 01:45:18.583"/>
+<msg timestamp="20220113 02:30:04.313" level="INFO">Clicking element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:04.312" endtime="20220113 02:30:06.258"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>id:loginForm</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20220113 01:45:18.583" endtime="20220113 01:45:19.241"/>
+<status status="PASS" starttime="20220113 02:30:06.258" endtime="20220113 02:30:06.699"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//*[@id="loginForm"]/div/div[5]/button/span[2]</arg>
 <arg>Log in with Facebook</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220113 01:45:19.247" level="INFO">Current page contains element '//*[@id="loginForm"]/div/div[5]/button/span[2]'.</msg>
-<status status="PASS" starttime="20220113 01:45:19.242" endtime="20220113 01:45:19.247"/>
+<msg timestamp="20220113 02:30:06.705" level="INFO">Current page contains element '//*[@id="loginForm"]/div/div[5]/button/span[2]'.</msg>
+<status status="PASS" starttime="20220113 02:30:06.699" endtime="20220113 02:30:06.706"/>
 </kw>
 <kw name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20220113 01:45:19.248" endtime="20220113 01:45:21.298"/>
+<status status="PASS" starttime="20220113 02:30:06.706" endtime="20220113 02:30:08.779"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:16.488" endtime="20220113 01:45:21.298"/>
+<status status="PASS" starttime="20220113 02:30:04.312" endtime="20220113 02:30:08.780"/>
 </test>
 <test id="s1-t13" name="Verify Twitter Navigation">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>https://deviltarxd.github.io/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220113 01:45:21.299" level="INFO">Opening browser 'chrome' to base url 'https://deviltarxd.github.io/'.</msg>
-<status status="PASS" starttime="20220113 01:45:21.299" endtime="20220113 01:45:22.922"/>
+<msg timestamp="20220113 02:30:08.781" level="INFO">Opening browser 'chrome' to base url 'https://deviltarxd.github.io/'.</msg>
+<status status="PASS" starttime="20220113 02:30:08.780" endtime="20220113 02:30:10.413"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220113 01:45:22.923" level="INFO">Clicking element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:22.922" endtime="20220113 01:45:25.236"/>
+<msg timestamp="20220113 02:30:10.414" level="INFO">Clicking element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:10.414" endtime="20220113 02:30:12.503"/>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <arg>PorPePor (@WhoIsPor) / Twitter</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<msg timestamp="20220113 01:45:25.240" level="INFO">Page title is 'PorPePor (@WhoIsPor) / Twitter'.</msg>
-<status status="PASS" starttime="20220113 01:45:25.237" endtime="20220113 01:45:25.240"/>
+<msg timestamp="20220113 02:30:12.505" level="INFO">Page title is 'PorPePor (@WhoIsPor) / Twitter'.</msg>
+<status status="PASS" starttime="20220113 02:30:12.503" endtime="20220113 02:30:12.505"/>
 </kw>
 <kw name="Wait Until Location Contains" library="SeleniumLibrary">
 <arg>https://twitter.com/WhoIsPor</arg>
 <arg>5s</arg>
 <arg>PorPePor</arg>
 <doc>Waits until the current URL contains ``expected``.</doc>
-<status status="PASS" starttime="20220113 01:45:25.240" endtime="20220113 01:45:25.242"/>
+<status status="PASS" starttime="20220113 02:30:12.506" endtime="20220113 02:30:12.508"/>
 </kw>
 <kw name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20220113 01:45:25.242" endtime="20220113 01:45:27.331"/>
+<status status="PASS" starttime="20220113 02:30:12.508" endtime="20220113 02:30:14.574"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:21.299" endtime="20220113 01:45:27.331"/>
+<status status="PASS" starttime="20220113 02:30:08.780" endtime="20220113 02:30:14.574"/>
 </test>
 <test id="s1-t14" name="Verify Facebook Navigation">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>https://deviltarxd.github.io/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220113 01:45:27.332" level="INFO">Opening browser 'chrome' to base url 'https://deviltarxd.github.io/'.</msg>
-<status status="PASS" starttime="20220113 01:45:27.332" endtime="20220113 01:45:28.996"/>
+<msg timestamp="20220113 02:30:14.576" level="INFO">Opening browser 'chrome' to base url 'https://deviltarxd.github.io/'.</msg>
+<status status="PASS" starttime="20220113 02:30:14.575" endtime="20220113 02:30:16.238"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220113 01:45:28.997" level="INFO">Clicking element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i'.</msg>
-<status status="PASS" starttime="20220113 01:45:28.997" endtime="20220113 01:45:29.995"/>
+<msg timestamp="20220113 02:30:16.239" level="INFO">Clicking element '//*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i'.</msg>
+<status status="PASS" starttime="20220113 02:30:16.239" endtime="20220113 02:30:17.887"/>
 </kw>
 <kw name="Wait Until Location Contains" library="SeleniumLibrary">
 <arg>https://web.facebook.com/paramas.wae</arg>
 <arg>5s</arg>
 <arg>Paramest Waewsuwan</arg>
 <doc>Waits until the current URL contains ``expected``.</doc>
-<status status="PASS" starttime="20220113 01:45:29.996" endtime="20220113 01:45:30.014"/>
+<status status="PASS" starttime="20220113 02:30:17.888" endtime="20220113 02:30:17.890"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:27.331" endtime="20220113 01:45:30.015"/>
+<status status="PASS" starttime="20220113 02:30:14.575" endtime="20220113 02:30:17.890"/>
 </test>
 <kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20220113 01:45:30.015" endtime="20220113 01:45:32.085"/>
+<status status="PASS" starttime="20220113 02:30:17.891" endtime="20220113 02:30:19.950"/>
 </kw>
-<status status="PASS" starttime="20220113 01:45:13.850" endtime="20220113 01:45:32.085"/>
+<status status="PASS" starttime="20220113 02:30:02.260" endtime="20220113 02:30:19.950"/>
 </suite>
 <statistics>
 <total>
