@@ -84,10 +84,10 @@ Verify Twitter Navigation
     Open Browser                         https://deviltarxd.github.io/                                       chrome
     Click Element                        //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i
     Title Should Be                      PorPePor (@WhoIsPor) / Twitter
-    Wait Until Location Contains         https://twitter.com/WhoIsPor                                        5s           PorPePor  
+    Wait Until Location Contains         https://twitter.com/WhoIsPor                                        none           PorPePor  
     Close All Browsers
 
 Verify Facebook Navigation
     Open Browser                         https://deviltarxd.github.io/                                       chrome
     Click Element                        //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i    
-    Wait Until Location Contains         https://web.facebook.com/paramas.wae                                5s           Paramest Waewsuwan
+    Wait Until Location Contains         https://web.facebook.com/paramas.wae                                none           Paramest Waewsuwan
