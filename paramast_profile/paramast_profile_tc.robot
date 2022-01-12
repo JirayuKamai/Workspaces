@@ -20,15 +20,15 @@ Verify Things I do content
     Page Should Contain                  Web Develop
     Page Should Contain                  Dev OPS
 
-Verify Social Media content
-    Page Should Contain                  Social Media 
+# Verify Social Media content
+#     Page Should Contain                  Social Media 
     
-    # IG | Twitter | Facebook | Github 
+#     # IG | Twitter | Facebook | Github 
     
-    Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i      
-    Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i
-    Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i
-    Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[4]/i
+#     Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[1]/i      
+#     Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[2]/i
+#     Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[3]/i
+#     Page Should Contain Element          //*[@id="app"]/div/div[2]/div/div[1]/div[2]/div[2]/a[4]/i
 
 Verify Frontend Knowledge content
     Page Should Contain                  Frontend Knowledge
